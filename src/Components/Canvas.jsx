@@ -11,8 +11,8 @@ const Canvas = () => {
         if (!canvas.current) return;
 
         if (canvas.current) {
-          canvas.current.setWidth(window.innerWidth);
-          canvas.current.setHeight(window.innerHeight);
+          canvas.current.setWidth(window.innerWidth * 0.95);
+          canvas.current.setHeight(window.innerHeight * 0.85);
         }
     }, []);
       
